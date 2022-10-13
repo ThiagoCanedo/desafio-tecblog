@@ -1,0 +1,116 @@
+
+html,body,h2 {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+header{
+    flex-direction: column;
+    background-color: rgb(223, 141, 0);
+    height: 70px;
+    
+      
+}
+.logo{
+    text-align: center; 
+    color: white;
+    
+}
+
+.navegacao{
+    display: flex;
+    margin-top: 15px; 
+    gap: 30px;
+    justify-content: center;
+    color:gold;
+}
+
+.primeiro-meio{
+    background-color: lightgray;
+    display:flex;
+    flex-direction: line;
+    align-items: flex-start;
+    justify-content: center;
+    
+    
+    
+}
+.divisao-postagens{
+    width: 500px;
+    
+    justify-content: center;
+    flex-direction: column;
+    margin: 25px;   
+}
+.postagem1{
+    background-color: white;
+    text-align: left;
+    margin: 15px;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.postagem2{
+    
+    background-color: white;
+    text-align: left;
+    margin: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.segundo-meio{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin-top: 40px;
+    
+}
+.titulo-postagens{
+    background-color: gray;
+    height: 30px;
+    text-align:justify;
+    
+}  
+.titulo{
+    margin: 10px;
+    line-height: 3px;
+    padding-top:10px ;
+} 
+.textos{
+    margin: 20px;
+    line-height:20px;
+}
+
+.textos-complementares{
+    margin: 6px;
+
+}
+.navegação-lateral{
+    margin: 6px;
+
+}
+.titulo-navegacao{
+    text-align: left;
+    border-top: 1px solid black;
+}
+
+.navegacao-complementar{
+    flex-direction: row;
+    font-size: small;
+    color: gold;
+    justify-content: space-around;
+
+}
+footer{
+    background-color: darkgray;
+    text-align: center;
+    
+
+}
+
+
